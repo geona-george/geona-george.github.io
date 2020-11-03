@@ -1,0 +1,165 @@
+* {
+  max-width: 730px;
+  margin: auto;
+}
+
+div {
+  border-radius: 5px;
+}
+
+#header {
+  height: 30px;
+  width: 100%;
+  background-color:#A0A0A0;
+  position: fixed;
+ z-index: 1;
+  
+}
+
+
+
+#footer {
+  height:30px;
+  width: 100%;
+  background-color:#A0A0A0;
+  clear: both;
+  position: relative;
+  
+}
+
+.left {
+  height: 1020px;
+  width: 34px;
+  background-color:#A0A0A0 ;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1020px;
+  width: 34px;
+  background-color:#A0A0A0;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 3.5px;
+  margin-left: 50px;
+  width: 85%;
+  height: 1000px;
+
+}
+
+p,
+li {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header{
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#intro{
+  font-style: "Comic Sans MS", cursive, sans-serif;
+  font-size: 15;
+  padding-top: 5px;
+  border-bottom-style:outset;
+  font-size: 15px;
+ padding-bottom: 5px;
+}
+
+.headof{
+ 
+  font-size: 14.5px;
+  float: left;
+  width: 44%;
+  padding-top: 3px;
+
+
+}
+
+.head{
+  padding-top: 10px;
+  font-size: 18px;
+  
+  
+}
+
+
+
+#ex{
+  box-sizing: content-box;  
+  width: 260px;
+  height: 275px;
+  padding: 7px;
+  padding-bottom: 15px;  
+  border: 4px solid grey ;
+
+  font-style: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 12;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
+img{
+  display: inline-block;
+  margin: 10px 6px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  padding: 1px;
+  width: 160px;
+  float: left;
+  
+ 
+}
+
+h2{
+ 
+  padding-top: 2px;
+}
+ul {
+        list-style-type: none;
+        
+      }
+      ul li:before {
+        content: '\2014';
+        position: absolute;
+        margin-left: -15px;
+      }
+
+
+    .rheadof{
+  padding-top: 3px;
+  font-size: 14.5px;
+  float: right;
+  width: 44%;  
+
+  }
+
+#start{
+  font-size: 15px;
+}
+
